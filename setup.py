@@ -3,14 +3,14 @@ from setuptools import setup
 setup(
     name='CompositesLib',
     version='0.1',
-    description="Mechanics of Composite Materials Package",
+    description="A Python package for mechanics of composite materials",
     author='Rafael Cidade',
     author_email='rafaelcidade@metalmat.ufrj.br',
     packages=['compositeslib'],
     license=open('LICENSE.txt').read(),
    # long_description=open('README.rst').read(),
-    url='https://github.com/ndevenish/simplehistogram',
-    keywords = ['histogram'],
+    url='https://github.com/rafaelcidade/compositeslib',
+    keywords = ['composites', 'mechanics'],
     classifiers = [
       "Programming Language :: Python",
       "Programming Language :: Python :: 2.6",
