@@ -1,4 +1,6 @@
 from setuptools import setup
+from distribute_setup import use_setuptools
+use_setuptools()
 
 setup(
     name='CompositesLib',
@@ -7,8 +9,8 @@ setup(
     author='Rafael Cidade',
     author_email='rafaelcidade@metalmat.ufrj.br',
     packages=['compositeslib'],
-    license=open('LICENSE.txt').read(),
-   # long_description=open('README.rst').read(),
+    license="GNU General Public License v3.0",
+    long_description=open('README.rst').read(),
     url='https://github.com/rafaelcidade/compositeslib',
     keywords = ['composites', 'mechanics'],
     classifiers = [
@@ -17,8 +19,8 @@ setup(
       "License :: OSI Approved :: GNU General Public License (GPL)",
       "Operating System :: OS Independent",
       "Intended Audience :: Science/Research",
-      "Topic :: Scientific/Engineering :: Mechanical Engineering",
-      "Development Status :: 2 - Pre-Alpha",
+      "Topic :: Scientific/Engineering",
+      "Development Status :: 2 - Pre-Alpha"
     ],
     install_requires=['numpy', 'matplotlib'],
     zip_safe=False,
