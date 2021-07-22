@@ -1,6 +1,6 @@
 # CompositesLib: A Python Package for Composite Materials
 # 
-# Copyright (C) 2012 Rafael Cidade
+# Copyright (C) 2021 Rafael Cidade
 # 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -15,21 +15,26 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>
 
+import platform
 import sys
 
 __author__ = 'Rafael Cidade'
-__copyright__ = 'Copyright (C) 2012 Rafael Cidade'
-__version__ = '0.1'
+__copyright__ = 'Copyright (C) 2021 Rafael Cidade'
+__version__ = '0.2'
 
-if not (2,6) <= sys.version_info[:2] <= (2,7):
+if not (3,6) <= sys.version_info[:2]:
     raise Exception("You are using " + platform.python_version() +
-                    "CompositesLib is compatible with python 2.6 and 2.7")
+                    "CompositesLib is compatible with python 3.6 or later")
 
 try:
     import numpy as np
 except ImportError:
     raise ImportError('CompositesLib requires numpy. Checkout http://numpy.scipy.org/')
 
-__all__ = ['micromechanics']
+__all__ = ['classes','micromechanics', 'macromechanics', 'output', 'plot']
 
-from micromechanics import *    
+from classes import *
+from micromechanics import *
+from macromechanics import *
+from output import *
+from plot import *
