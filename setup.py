@@ -2,10 +2,10 @@ from setuptools import setup
 
 setup(
     name='CompositesLib',
-    version='0.2',
+    version='0.5',
     description="A Python package for mechanics of composite materials",
     author='Rafael Cidade',
-    author_email='rafaelcidade@metalmat.ufrj.br',
+    author_email='rafaelcidade@poli.ufrj.br',
     packages=['compositeslib'],
     license="GNU General Public License v3.0",
     long_description=open('README.rst').read(),

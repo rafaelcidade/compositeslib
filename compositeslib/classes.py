@@ -19,8 +19,8 @@
 
 import copy
 import numpy as np
-from micromechanics import *
-from macromechanics import *
+from .micromechanics import *
+from .macromechanics import *
 
 
 class ply:

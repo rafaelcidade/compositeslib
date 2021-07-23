@@ -1,5 +1,5 @@
 CompositesLib
-==========
+=============
 
 :Description: A python package for composite materials.
 :Author:      Rafael Cidade

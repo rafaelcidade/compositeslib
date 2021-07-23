@@ -1,3 +1,4 @@
+# CompositesLib: A Python Package for Composite Materials
 #
 # Copyright (C) 2021 Rafael Cidade
 #
