@@ -19,7 +19,7 @@
 # please, follow http://www.python.org/dev/peps/pep-0008/#naming-conventions
 
 import numpy as np
-from classes import *
+from .classes import *
 
 
 def print_stress(laminate):

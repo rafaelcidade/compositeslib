@@ -19,7 +19,7 @@
 # please, follow http://www.python.org/dev/peps/pep-0008/#naming-conventions
 
 import matplotlib.pyplot as plt
-from classes import *
+from .classes import *
 
 
 def plot_stress(laminate):

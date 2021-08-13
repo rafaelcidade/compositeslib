@@ -18,15 +18,15 @@
 import platform
 import sys
 
-from classes import *
-from micromechanics import *
-from macromechanics import *
-from output import *
-from plot import *
+from .classes import *
+from .micromechanics import *
+from .macromechanics import *
+from .output import *
+from .plot import *
 
 __author__ = 'Rafael Cidade'
 __copyright__ = 'Copyright (C) 2021 Rafael Cidade'
-__version__ = '0.2'
+__version__ = '0.6'
 
 if not (3, 6) <= sys.version_info[:2]:
     raise Exception("You are using " + platform.python_version() +
